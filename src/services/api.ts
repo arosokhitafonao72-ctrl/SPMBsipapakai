@@ -75,10 +75,10 @@ const getInitialMockSettings = (): AppSettings => {
     }
   }
   return {
-    namaSekolah: "SDN Harapan Bangsa",
-    alamat: "Jl. Pendidikan No. 123, Kota Pelajar, Indonesia 12345",
-    telepon: "(021) 1234-5678",
-    email: "info@sdnharapanbangsa.sch.id",
+    namaSekolah: "SMP NEGERI 3 BAWOLATO",
+    alamat: "Dusun I, Desa Siofabanua, Kec. Bawolato, kab. Nias",
+    telepon: "0852 6293 9815",
+    email: "smpn3bwt@gmail.com",
     deskripsi: "Mencetak generasi penerus bangsa yang cerdas, berakhlak mulia, dan siap menghadapi tantangan masa depan dengan pendidikan berkualitas.",
     statusPendaftaran: "Buka",
     persyaratanDaftarUlang: "1. Membawa Bukti Kelulusan yang dicetak\n2. Membawa Fotokopi Akta Kelahiran (2 lembar)\n3. Membawa Fotokopi Kartu Keluarga (2 lembar)\n4. Membawa Pas Foto 3x4 (4 lembar)\n5. Melakukan pembayaran administrasi awal",
@@ -88,7 +88,7 @@ const getInitialMockSettings = (): AppSettings => {
     tahunPendaftaran: new Date().getFullYear().toString(),
     koordinatSekolah: "-6.200000, 106.816666", // Default to Jakarta
     sambutanKepalaSekolah: "Selamat datang di website resmi PPDB SDN Harapan Bangsa. Kami berkomitmen untuk memberikan pelayanan pendidikan terbaik bagi putra-putri Anda. Mari bergabung bersama kami untuk mencetak generasi penerus bangsa yang cerdas, berakhlak mulia, dan berprestasi.",
-    fotoKepalaSekolah: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=200&auto=format&fit=crop",
+    fotoKepalaSekolah: "https://drive.google.com/file/d/1un8Zlgz_aUFrutgEjprtU7Y7R_aMrn2i/view?usp=sharing",
     visiSekolah: "Menjadi sekolah dasar unggulan yang menghasilkan lulusan berakhlak mulia, cerdas, terampil, dan berwawasan lingkungan.",
     misiSekolah: "1. Menyelenggarakan pembelajaran yang aktif, inovatif, kreatif, efektif, dan menyenangkan (PAIKEM).\n2. Menanamkan nilai-nilai agama dan budi pekerti luhur dalam kehidupan sehari-hari.\n3. Mengembangkan potensi, bakat, dan minat siswa melalui kegiatan ekstrakurikuler.\n4. Menciptakan lingkungan sekolah yang bersih, sehat, dan asri.",
     formFields: [
