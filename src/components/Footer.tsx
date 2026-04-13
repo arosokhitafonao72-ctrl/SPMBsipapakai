@@ -19,7 +19,7 @@ export default function Footer() {
                 </div>
               )}
               <span className="font-bold text-xl tracking-tight text-white">
-                {settings?.namaSekolah || 'SDN Harapan Bangsa'}
+                {settings?.namaSekolah || 'SMP NEGERI 3 BAWOLATO'}
               </span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed max-w-md">
@@ -41,22 +41,22 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-blue-500 shrink-0 mt-0.5" />
-                <span>{settings?.alamatSekolah || 'Jl. Pendidikan No. 123, Kota Pelajar, Indonesia 12345'}</span>
+                <span>{settings?.alamatSekolah || 'Dusun I, Desa Siofabanua, Kec. Bawolato, Kab. Nias'}</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-blue-500 shrink-0" />
-                <span>{settings?.teleponSekolah || '(021) 1234-5678'}</span>
+                <span>{settings?.teleponSekolah || '0852 62939815'}</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-blue-500 shrink-0" />
-                <span>{settings?.emailSekolah || 'info@sdnharapanbangsa.sch.id'}</span>
+                <span>{settings?.emailSekolah || 'smpn3bwl@gmail.com'}</span>
               </li>
             </ul>
           </div>
         </div>
         
         <div className="mt-12 pt-8 border-t border-slate-800 text-center text-sm text-slate-500 flex flex-col md:flex-row justify-between items-center">
-          <p>&copy; {new Date().getFullYear()} {settings?.namaSekolah || 'SDN Harapan Bangsa'}. Hak Cipta Dilindungi.</p>
+          <p>&copy; {new Date().getFullYear()} {settings?.namaSekolah || 'SMP NEGERI 3 BAWOLATO'}. Hak Cipta Dilindungi.</p>
           <p className="mt-2 md:mt-0">Sistem PPDB Online Terintegrasi</p>
         </div>
       </div>
